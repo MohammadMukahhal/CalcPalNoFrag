@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Display">
+
+
+    <TextView
+        android:id="@+id/expressionDisplay"
+        android:layout_width="279dp"
+        android:layout_height="210dp"
+        android:gravity="center"
+        android:text="@string/display"
+        android:textColor="#FFA3A3"
+        android:textSize="76sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <TextView
+        android:id="@+id/Memory"
+        android:layout_width="220dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="191dp"
+        android:gravity="right"
+        android:text=""
+        android:textColor="#FFA3A3"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="@+id/expressionDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
